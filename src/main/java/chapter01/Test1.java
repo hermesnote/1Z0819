@@ -1,6 +1,6 @@
-package com.hermes._z0819;
+package chapter01;
 
-public class Class_1_1 {
+public class Test1 {
 	
 	// 類別變數 with static 自帶初值
 	static int myInt = 666;
@@ -22,13 +22,13 @@ public class Class_1_1 {
 		System.out.println(myInt);
 		
 		// 完整的寫法也可以
-		System.out.println(Class_1_1.myInt);
+		System.out.println(Test1.myInt);
 		
 		// new類別以存取同名『物件變數』
-		Class_1_1 ob1 = new Class_1_1();
+		Test1 ob1 = new Test1();
 		System.out.println(ob1.objectVar);
 		// 調用同名類別變數
-		System.out.println(Class_1_1.staticVar);
+		System.out.println(Test1.staticVar);
 		
 		// 『區域變數』, 方法內宣告的變數,生命週期只存在方法內,需給初值
 		int localVar = 0;
